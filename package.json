@@ -1,0 +1,23 @@
+{
+	"name": "sc-angelscript",
+	"displayName": "Sven Co-op AngelScript API",
+	"description": "Adds Sven Co-op AngelScript API support",
+	"version": "0.0.1",
+	"publisher": "Rizulix",
+	"icon": "icon/sc_as_logo.png",
+	"repository": "https://github.com/Rizulix/vscode_sc-angelscript.git",
+	"engines": {
+		"vscode": "^1.58.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "angelscript",
+				"path": "./snippets/sc-angelscript.snippets.json"
+			}
+		]
+	}
+}
